@@ -115,5 +115,6 @@ app.post('/change-data', [validateToken], async (req, res) => {
 
 app.listen(3000, () => {
     console.log('server berjalan')
+    console.log('wah saya berjalan dengan 2 kaki')
 
 })
